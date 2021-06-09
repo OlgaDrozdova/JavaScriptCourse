@@ -1,0 +1,17 @@
+div{
+	color: pink;
+	display: flex; /*flex-direction расположение*/
+	justify-content: center;
+}
+.c1{
+	background-color: lightblue;
+}
+#butt{
+	color: red;
+}
+p:hover::first-line {
+	font-weight: bold;
+}
+#butt::before{
+	content: "Нажми на кнопку, получишь результат   ";
+}
