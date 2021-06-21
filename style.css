@@ -1,26 +1,25 @@
-
-body{
-	font-family: Gotham Pro;
-	background: #E5E5E5;
+body {
+    font-family: Gotham Pro;
+    background: #E5E5E5;
 }
 
-header{
-	background: #FFFFFF;
+header {
+    background: #FFFFFF;
 }
 
-ul{
-	padding: 0;
-	display: flex;
-	list-style: none;
+ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
 }
 
-li{
-	height: 80px;
-	width: 90px;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
+li {
+    height: 80px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 
 li a,
@@ -28,246 +27,261 @@ li a,
 .dash_head,
 .visitors_head,
 .recommend_head,
-.recommend_foot{
-	font-size: 12px;
-	line-height: 11px;
-	text-transform: uppercase;
-	color: #181818;
+.recommend_foot {
+    font-size: 12px;
+    line-height: 11px;
+    text-transform: uppercase;
+    color: #181818;
 }
 
-li a, 
-.dash_head :hover{
-	color: #0275B1;
-	text-decoration: none;
+li a,
+.dash_head :hover {
+    color: #0275B1;
+    text-decoration: none;
 }
 
-.logo{
-	width: 130px;
-	margin-right: 13px;
-	border-right: 1px solid #F4F4F4;
+.logo {
+    width: 130px;
+    margin-right: 13px;
+    border-right: 1px solid #F4F4F4;
 }
 
-.notice{
-	margin-right: 20px;	
+.notice {
+    margin-right: 20px;
 }
 
-.search{
-	width: 367px;
-	border-left: 1px solid #F4F4F4;
-	border-right: 1px solid #F4F4F4;
+.search {
+    width: 367px;
+    border-left: 1px solid #F4F4F4;
+    border-right: 1px solid #F4F4F4;
 }
 
-input{
-	background-image: url(images/search.png);
-	background-size: 24px;
-	background-repeat: no-repeat;
-	border: 0px;
-	margin: 31px 0 33px 33px;
-	padding-left: 44px;
+.icon {
+    width: 24px;
+    height: 24px;
 }
 
-.profile{
-	width: 330px;
-	border-right: 1px solid #F4F4F4;
-	display: flex;
-	flex-direction: row;
-	justify-content: start;
+input {
+    background-image: url(images/search.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    border: 0px;
+    margin: 31px 0 33px 33px;
+    padding-left: 44px;
 }
 
-.other{
-	margin-right: 40px;
-	border-right: 1px solid #F4F4F4;
+.profile {
+    width: 330px;
+    border-right: 1px solid #F4F4F4;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
 }
 
-.avatar{
-	height: 24px;
-	width: 24px;
-	margin: 18px 15px 20px 30px;
+.other {
+    margin-right: 40px;
+    border-right: 1px solid #F4F4F4;
 }
 
-.main{
-	display: flex;
+.avatar {
+    height: 24px;
+    width: 24px;
+    margin: 18px 15px 20px 30px;
 }
 
-.edit_back{
-	width: 850px;
-	height: 180px;
-	background: url(images/edit_profile_background.png);
-	display: flex;
-	justify-content: space-between;
+.main {
+    display: flex;
+}
+
+.edit_back {
+    width: 850px;
+    height: 180px;
+    background: url(images/edit_profile_background.png);
+    display: flex;
+    justify-content: space-between;
 }
 
 .edit_profile,
 .about_container,
 .projects_container,
 .skills_container,
-.experience_container{
-	width: 850px;
-	height: 360px;
-	margin: 40px 0px 0px 130px;
-	background: #FFFFFF;
-	box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
-	border-radius: 4px;
+.experience_container {
+    width: 850px;
+    height: 360px;
+    margin: 40px 0px 0px 130px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
 }
 
-.projects_preview{
-	display:flex;
-	justify-content: space-between;
-	margin: 25px 30px 25px 30px;
-}
-.project_pic{
-	width: 250px;
-	height: 160px;
+.projects_preview {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px 30px 25px 30px;
 }
 
-.proj{
-	display:flex;
-	flex-direction: column;
+.project_pic {
+    width: 250px;
+    height: 160px;
+}
+
+.proj {
+    display: flex;
+    flex-direction: column;
 }
 
 .save_btn,
 .edit_btn,
-.other_btn{
-	width: 36px;
-	height: 36px;
-	background: rgba(255, 255, 255, 0.9);
-	box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
-	border-radius: 4px;
-	margin-top: 20px;
+.other_btn {
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 10px 30px rgba(113, 123, 133, 0.05);
+    border-radius: 4px;
+    margin-top: 20px;
 }
 
-.save_btn{
- 	margin-left: 30px;
+.save_btn {
+    margin-left: 30px;
 }
 
-.edit_btn{
-	width: 132px;
-	margin-right: 10px;
+.edit_btn {
+    width: 132px;
+    margin-right: 10px;
 }
 
-.edit_group{
-	margin-right: 30px;
+.edit_group {
+    margin-right: 30px;
 }
 
-.main_avatar{
-	width: 170px;
-	height: 170px;
-	border: 10px solid #FFFFFF;
-	margin-left: 25px;
-	margin-bottom: 30px;
+.main_avatar {
+    width: 170px;
+    height: 170px;
+    border: 10px solid #FFFFFF;
+    margin-left: 25px;
+    margin-bottom: 30px;
 }
 
-.about_container{
-	height: 170px;
+.about_container {
+    height: 170px;
 }
 
-.projects_container{
-	height: 355px;
+.projects_container {
+    height: 355px;
 }
 
-.skills_container{
-	height: 220px;
-}
-.experience_container{
-	height: 345px;
-}
-.dashboard{
-	width: 290px;
-	height: 360px;
-	margin: 40px 130px 20px 40px;
-	background: #FFFFFF;
-	box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
-	border-radius: 4px;
-	padding-left: 30px;
+.skills_container {
+    height: 220px;
 }
 
-.dash_num_container{
-	padding-top: 20px;
+.experience_container {
+    height: 345px;
 }
 
-.dash_num{
-	font-size: 52px;
-	line-height: 50px;
-	text-transform: uppercase;
-	color: #0275B1;
+.dashboard {
+    width: 290px;
+    height: 360px;
+    margin: 40px 130px 20px 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 60px rgba(241, 244, 248, 0.5);
+    border-radius: 4px;
+    padding-left: 30px;
 }
 
-.recommend_foot{
-	color: #0275B1;
+.dash_num_container {
+    padding-top: 20px;
+}
+
+.dash_num {
+    font-size: 52px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #0275B1;
+}
+
+.recommend_foot {
+    color: #0275B1;
 }
 
 .dash_head,
 .visitors_head,
 .recommend_head,
-.recommend_foot{
-	margin-right: 29px;
-	padding-top: 25px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #F4F4F4;
-	display: flex;
-	justify-content:space-between;
+.recommend_foot {
+    margin-right: 29px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #F4F4F4;
+    display: flex;
+    justify-content: space-between;
 }
 
-.visitors{
-	width: 290px;
-	height: 427px;
-	margin: 0px 130px 20px 40px;
-	background:#FCFDFD;
-	border-radius: 4px;
-	padding-left: 30px;
+.visitors {
+    width: 290px;
+    height: 427px;
+    margin: 0px 130px 20px 40px;
+    background: #FCFDFD;
+    border-radius: 4px;
+    padding-left: 30px;
 }
 
 .visitors_name,
-.recommend_name{
-	display: flex;
-	flex-direction: column;
-	padding-top: 20px;
+.recommend_name {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
 }
 
-.name{
-	font-size: 14px;
-	line-height: 13px;
-	color: #181818;
+.name {
+    font-size: 14px;
+    line-height: 13px;
+    color: #181818;
 }
 
 .description_visitor,
-.description_recommend{
-	font-size: 10px;
-	line-height: 150%;
-	color: #181818;
+.description_recommend {
+    font-size: 10px;
+    line-height: 150%;
+    color: #181818;
 }
 
 .avatar_visitor,
-.avatar_recommend{
-	width: 52px;
-	height: 52px;
-	border-radius: 26px;
-	margin-right: 15px;
+.avatar_recommend {
+    width: 52px;
+    height: 52px;
+    border-radius: 26px;
+    margin-right: 15px;
 }
 
 .visitor_container,
-.recommend_container{
-	display: flex;
-	margin-bottom: 15px;
+.recommend_container {
+    display: flex;
+    margin-bottom: 15px;
 }
 
-.recommend_container{
-	width: 80px;
-	height: 52px;
+.recommend_container {
+    width: 80px;
+    height: 52px;
 }
 
-.avatar_recommend{
-	width: 80px;
-	height: 52px;
-	border-radius: 2px;
-	margin-right: 15px;
+.avatar_recommend {
+    width: 80px;
+    height: 52px;
+    border-radius: 2px;
+    margin-right: 15px;
 }
 
-.recommend{
-	width: 290px;
-	height: 338px;
-	margin: 0px 130px 20px 40px;
-	background:#FCFDFD;
-	border-radius: 4px;
-	padding-left: 30px;
+.recommend {
+    width: 290px;
+    height: 338px;
+    margin: 0px 130px 20px 40px;
+    background: #FCFDFD;
+    border-radius: 4px;
+    padding-left: 30px;
+}
+
+@font-face {
+    font-family: Gotham Pro;
+    src: url("fonts/icomoon.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
