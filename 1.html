@@ -1,294 +1,390 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>LinkedIn</title>
-	<link rel="stylesheet" href="icomoon/style.css"/>
+    <link rel="stylesheet" href="icomoon/style.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  <body>
-    <header>
-	  <nav>
-       <ul>
-         <li class="logo">
-           <a>
-            <svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
-			  <path fill-rule="evenodd" clip-rule="evenodd" d="M2.5262 2.5262C0 5.05241 0 9.11827 0 17.25V28.75C0 36.8817 0 40.9476 2.5262 43.4738C5.05241 46 9.11827 46 17.25 46H28.75C36.8817 46 40.9476 46 43.4738 43.4738C46 40.9476 46 36.8817 46 28.75V17.25C46 9.11827 46 5.05241 43.4738 2.5262C40.9476 0 36.8817 0 28.75 0H17.25C9.11827 0 5.05241 0 2.5262 2.5262ZM11.4811 14.4099C9.58715 14.4099 8.05 12.8571 8.05 10.9425C8.05 9.02789 9.58715 7.475 11.4811 7.475C13.3751 7.475 14.9123 9.02789 14.9123 10.9425C14.9123 12.8571 13.3771 14.4099 11.4811 14.4099ZM8.54016 38.525V16.9024H14.4221V38.525H8.54016ZM32.068 38.525H37.95V25.2389C37.95 14.9132 26.9644 15.2886 24.2254 20.3719V16.9024H18.3434V38.525H24.2254V27.5093C24.2254 21.3901 32.068 20.8889 32.068 27.5093V38.525Z" fill="url(#paint0_linear)"/>
-			    <defs>
-				  <linearGradient id="paint0_linear" x1="23" y1="0" x2="23" y2="46" gradientUnits="userSpaceOnUse">
-				    <stop stop-color="#0077B5"/>
-				    <stop offset="1" stop-color="#0E6795"/>
-				  </linearGradient>
-				</defs>
-			</svg>
-	       </a>
-         </li>
-         <li>
-           <a href="">
-            <i class="icon icon-rss" aria-hidden="true"></i>
-            <div>feed</div>
-		   </a>
-	     </li>
-		 <li>
-		   <a href="">
-			<i class="icon icon-users" aria-hidden="true"></i>					
-			<div>network</div>
-		  </a>
-		 </li>
-		  <li>
-		    <a href="">
-			<i class="icon icon-briefcase" aria-hidden="true"></i>					
-			<div>jobs</div>
-			</a>
-		  </li>
-		  <li>
-			<a href="">
-			<i class="icon icon-message-square" aria-hidden="true"></i>					
-			  <div>chat</div>
-			</a>
-		  </li>
-		  <li class="notice">
-			<a href="">
-				<i class="icon icon-bell" aria-hidden="true"></i>					
-			  <div>notices</div>
-			</a>
-		  </li>
-		  <li class="search">
-		    <input type="text" placeholder="Search">			
-		  </li>
-		  <li class="profile">
-			<img class="avatar" src="images/nav avatar.png" alt="avatar">
-			<div>
-              <span class="name">D. Kargaev</span>
-			  <span>you</span>
-			    <br>
-			      <span>367 views today</span>
-			      <span>+32</span>
-			    </br>
-				<i class="icon icon-arrow-up-right" aria-hidden="true"></i>
-			</div>				
-		  </li>
-		  <li class="other">
-			<a href="">
-				<i class="icon icon-more-horizontal" aria-hidden="true"></i>					
-			  <div>other</div>
-			</a>
-		  </li>
-        </ul>
-	  </nav>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="page">
+    <header class="header page__header">
+        <nav>
+            <ul class="menu">
+                <li class="menu__item logo__item">
+                    <a class="menu__link" href="">
+                        <img src="images/Logo.jpg" alt="logo icon">
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">
+                        <i class="icon icon-rss menu-icon" aria-hidden="true"></i>
+                        <div class="main-text_style header-text_style header-hover">feed</div>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">
+                        <i class="icon icon-users menu-icon" aria-hidden="true"></i>
+                        <div class="main-text_style header-text_style header-hover">network</div>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">
+                        <i class="icon icon-briefcase menu-icon" aria-hidden="true"></i>
+                        <div class="main-text_style header-text_style header-hover">jobs</div>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a class="menu__link" href="">
+                        <i class="icon icon-message-square menu-icon" aria-hidden="true"></i>
+                        <div class="main-text_style header-text_style header-hover">chat</div>
+                    </a>
+                </li>
+                <li class="menu__item notice__item">
+                    <a class="menu__link" href="">
+                        <i class="icon icon-bell menu-icon" aria-hidden="true"></i>
+                        <div class="main-text_style header-text_style header-hover">notices</div>
+                    </a>
+                </li>
+                <li class="menu__item search__item">
+                    <input class="search-box" type="text" placeholder="Search">
+                </li>
+                <li class="menu__item profile__item">
+                    <img class="profile-avatar" src="images/mini_avatar.jpg" alt="avatar">
+                    <div class="profile_description">
+                        <div class="profile-text_row">
+                            <span class="main-text_style header-text_style">D. Kargaev</span>
+                            <span class="main-text_style header-text_style grey-text_style">you</span>
+                        </div>
+                        <div class="profile-text_row">
+                            <span class="main-text_style darkgrey-text_style">367 views today</span>
+                            <span class="main-text_style header-text_style green-text_style">+32</span>
+                            <i class="icon icon-arrow-up-right" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </li>
+                <li class="menu__item other__item">
+                    <a class="menu__link" href="">
+                        <i class="icon icon-more-horizontal menu-icon" aria-hidden="true"></i>
+                        <div class="main-text_style header-text_style header-hover">other</div>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main class="main">
-	<div>
-	  <div class="edit_profile">
-		<div class="edit_back">
-			<button class="save_btn">save</button>
-			<div class="edit_group">
-				<button class="edit_btn">edit profile</button>
-				<button class="other_btn">other</button>
-			</div>
-		</div>
-		<img class="main_avatar" src="images/main avatar.png" alt="avatar">
-	  </div>
-	  <div class="about_container">
-		<span>About</span>
-		<br>
-		<span>I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites.</span>
-		</br>
-		<br>
-		<span>See more</span>
-		</br>
-	  </div>
-	  <div class="projects_container">
-		<span>Projects</span>
-		<span>3 of 12</span>
-		<div class="projects_preview">
-			<div class="proj">
-				<img class="project_pic" src="images/zara.png" alt="Zara">
-				<span>Zara redesign concept</span>
-				<span>UX/UI design, 15.07.2019</span>
-			</div>
-			<div class="proj">
-			<img class="project_pic" src="images/scthon.png" alt="Scthon">
-			<span>SCTHON event brand identity</span>
-				<span>Graphic design, 03.31.2019</span>
-			</div>
-			<div class="proj">
-			<img class="project_pic" src="images/drozd.png" alt="Drozd">
-			<span>Drozd. Brand identity. 2016</span>
-				<span>Graphic design, 03.04.2016</span>
-			</div>
-		</div>
-		<span>Show all (12)</span>
-	  </div>
-	  <div class="skills_container">
-		<span>Skills & Endoresments</span>
-		<div>
-			<div class="skills">
-				<div>
-					<span>User experience (UX)</span>
-					<span>6</span>
-				</div>
-				<div>
-					<img class="" src="" alt="Drozd">
-
-				</div>
-			</div>
-			<div class="skills">
-				<div>
-					<span>User interface (UI)</span>
-					<span>7</span>
-				</div>
-				<div>
-					<img class="" src="" alt="Drozd">
-
-				</div>
-			</div>
-			<div class="skills">
-				<div>
-					<span>Brand identity</span>
-					<span>5</span>
-				</div>
-				<div>
-					<img class="" src="" alt="Drozd">
-
-				</div>
-			</div>
-		</div>
-		<span>Show ALL (17)</span>
-	  </div>
-	  <div class="experience_container">
-		<div>
-			<img class="" src="images/freelance.png" alt="">
-			<div>
-				<span>Freelance UX/UI designer</span>
-				<span>Self Employed</span>
-				<span>Around the world</span>
-				<span>Jun 2016 — Present</span>
-				<span>3 yrs 3 mos</span>
-				<span>Work with clients and web studios as freelancer.  Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.</span>
-			</div>
-		</div>
-		<div>
-			<img class="" src="images/ux.png" alt="">
-			<div>
-				<span>UX/UI designer</span>
-				<span>Upwork</span>
-				<span>International</span>
-				<span>Jun 2019 — Present</span>
-				<span>3 mos</span>
-				<span>New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.</span>
-			</div>
-		</div>
-	  </div>
-	  <div class="about_container">
-		<span>About</span>
-		<br>
-		<span>I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites.</span>
-		</br>
-		<br>
-		<span>See more</span>
-		</br>
-	  </div>
-	</div>
-
-
-	  <div>
-	    <div class="dashboard">
-		  <div class="dash_head">
-		    <span>your dashboard</span>
-		    <span>go to stats</span>
-		  </div>
-		  <div class="dash_num_container">
-		    <span class="dash_num">367</span><span><br>views today</br></span>
-		    <span class="dash_num">15</span><span><br>posts views</br></span>
-		    <span class="dash_num">9</span><span><br>search appereances</br></span>
-	      </div>
+        <div class="main-left_block">
+            <div class="main-card_block">
+                <div class="main-card_top-buttons">
+                    <button class="save_button">
+                      <i class="icon icon-upload" aria-hidden="true"></i>
+                    </button>
+                    <div class="main-card_top-buttons__right">
+                        <button class="edit_button">
+                            <i class="icon icon-edit edit-icon" aria-hidden="true"></i>
+                            <span>Edit profile</span>
+                        </button>
+                        <button class="other_button">
+                          <i class="icon icon-more-vertical" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="main-card_block_info">
+                    <img class="main-profile_avatar" src="images/main avatar.png">
+                    <div class="main-card_info">
+                        <div class="main-card_info__row">
+                            <div class="main-card_info__left">
+                                <div class="card_info__name">Dmitry Kargaev</div>
+                                <img class="card_info__gold_logo" src="images/Logo_gold.png">
+                            </div>
+                            <div class="main-card_info__right">
+                                <img class="card_info__vector" src="images/Vector.png">
+                                <div class="card_info__vector_desc">Saint Petersburg, Russian Federation</div>
+                            </div>
+                        </div>
+                        <div class="card_info__desc">Freelance UX/UI designer, 80+ projects in web design, mobile apps (iOS & android) and creative projects. Open to offers.</div>
+                        <div class="card_info__bottom_buttons">
+                            <button class="footer_button">Contact info</button>
+                            <button class="footer_button">1,043 connections</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-tab_block">
+                <div class="main-button_block">
+                    <button class="tab_button">Profile</button>
+                </div>
+                <div class="main-button_block">
+                    <button class="tab_button">Activity & interests</button>
+                </div>
+                <div class="main-button_block">
+                    <button class="tab_button tab-border">Articles (3)</button>
+                </div>
+            </div>
+            <div class="main-about_block">
+                <span class="main-title">About</span>
+                <div class="main-about_block-text">
+                    I'm more experienced in eCommerce web projects and mobile banking apps, but also like to work with creative projects, such as landing pages or unusual corporate websites.
+                </div>
+                <a class="main-href" href="">See more</a>
+            </div>
+            <div class="main-projects_block">
+                <div class="projects__title">
+                    <span class="main-title">Projects</span>
+                    <span class="projects__title-numbers">3 of 12</span>
+                </div>
+                <div class="projects__items">
+                    <div class="projects__item">
+                        <img class="projects__item-image" src="images/zara.jpg" />
+                        <span class="main-item-header">Zara redesign concept</span>
+                        <span class="main-item-description__grey">UX/UI design, 15.07.2019</span>
+                    </div>
+                    <div class="projects__item">
+                        <img class="projects__item-image" src="images/scthon.jpg" />
+                        <span class="main-item-header">SCTHON event brand identity</span>
+                        <span class="main-item-description__grey">Graphic design, 03.31.2019</span>
+                    </div>
+                    <div class="projects__item">
+                        <img class="projects__item-image" src="images/drozd.jpg" />
+                        <div class="main-item-header">Drozd. Brand identity. 2016</div>
+                        <div class="main-item-description__grey">Graphic design, 03.04.2019</div>
+                    </div>
+                </div>
+                <a class="main-href" href="">Show all (12)</a>
+            </div>
+            <div class="main-skills_block">
+                <span class="main-title">Skills & Endoresments</span>
+                <div class="skills__items">
+                    <div class="skills__item">
+                        <div class="skills__item-design">
+                            <span class="main-item-header">User experience (UX)</span>
+                            <span class="skills__numbers">6</span>
+                        </div>
+                        <img class="skills-image" src="images/users_ux.jpg" />
+                    </div>
+                    <div class="skills__item">
+                        <div class="main__item-design">
+                            <span class="main-item-header">User interface (UI)</span>
+                            <span class="skills__numbers">7</span>
+                        </div>
+                        <img class="skills-image" src="images/users_ui.jpg" />
+                    </div>
+                    <div class="skills__item">
+                        <div class="main__item-design">
+                            <span class="main-item-header">Brand identity</span>
+                            <span class="skills__numbers">5</span>
+                        </div>
+                        <img class="skills-image" src="images/users_brand.jpg" />
+                    </div>
+                </div>
+                <a class="main-href" href="">Show all (17)</a>
+            </div>
+            <div class="main-experience_block">
+                <span class="main-title">Experience</span>
+                <div class="experience__item">
+                    <img class="experience-item__image" src="images/freelance.jpg" />
+                    <div class="experience-description">
+                        <div class="main-item-header">Freelance UX/UI designer</div>
+                        <div class="experience-company">
+                            <div class="main-item-description__black">Self Employed</div>
+                            <div class="main-item-description__grey">Around the world</div>
+                        </div>
+                        <div class="experience-duration">
+                            <div class="main-item-description__grey">Jun 2016 — Present</div>
+                            <div class="expericence-duration__total">3 yrs 3 mos</div>
+                        </div>
+                        <div class="main-item-description__black">
+                            Work with clients and web studios as freelancer. Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.
+                        </div>
+                    </div>
+                </div>
+                <div class="experience__item  experience-item__line">
+                    <img class="experience-item__image" src="images/designer.jpg" />
+                    <div class="experience-description">
+                        <div class="main-item-header">UX/UI designer</div>
+                        <div class="experience-company">
+                            <div class="main-item-description__black">Upwork</div>
+                            <div class="main-item-description__grey">International</div>
+                        </div>
+                        <div class="experience-duration">
+                            <div class="main-item-description__grey">Jun 2019 — Present</div>
+                            <div class="expericence-duration__total">3 mos</div>
+                        </div>
+                        <div class="main-item-description__black">
+                            New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-education_block">
+                <span class="main-title">Education</span>
+                <div class="education__items">
+                    <img class="education__image" src="images/education.jpg" />
+                    <div>
+                        <div class="main-item-header">
+                            Moscow State Linguistic University
+                        </div>
+                        <div class="main-item-description__black">
+                            Bachelor's degree Field Of StudyComputer and Information Systems Security/Information Assurance
+                        </div>
+                        <div class="main-item-description__grey">2013 — 2017</div>
+                        <div class="main-item-description__black">
+                            Additional English classes and UX profile courses​.
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-	    <div class="visitors">
-				<div class="visitors_head">
-				  <span>visitors</span>
-				  <span>view all</span>
-				</div>
-				<div class="visitors_name">
-					<div class="visitor_container">  
-						<img class="avatar_visitor" src="images/darlene_black.png" alt="Darlene Black">
-						<div class="visitor_card">
-							<span class="name">Darlene Black</span>
-							<span class="description_visitor"><br>HR-manager, 10 000 connec...</br></span>
-						</div>
-					</div>
-					<div class="visitor_container"> 
-						<img class="avatar_visitor" src="images/theresa_steward.png" alt="Theresa Steward">
-						<div class="visitor_card">
-							<span class="name">Theresa Steward</span>
-							<span class="description_visitor"><br>iOS developer</br></span>
-						</div>
-					</div>
-					<div class="visitor_container"> 
-						<img class="avatar_visitor" src="images/brandon_wilson.png" alt="Brandon Wilson">
-						<div class="visitor_card">
-							<span class="name">Brandon Wilson</span>
-							<span class="description_visitor"><br>Senior UX designer</br></span>
-						</div>
-					</div>
-					<div class="visitor_container"> 
-						<img class="avatar_visitor" src="images/kyle_fisher.png" alt="Kyle Fisher">
-						<div class="visitor_card">
-							<span class="name">Kyle Fisher</span>
-							<span class="description_visitor"><br>Product designer at Com...</br></span>
-						</div>
-					</div>
-					<div class="visitor_container"> 
-						<img class="avatar_visitor" src="images/audrey_alexander.png" alt="Audrey Alexander">
-						<div class="visitor_card">
-							<span class="name">Audrey Alexander</span>
-							<span class="description_visitor"><br>Team lead at Google</br></span>
-						</div>
-					</div>
-				</div>
-	    </div>
-	    <div class="recommend">
-			<div class="recommend_head">
-				<span>You may like these courses</span>
-			</div>
-			<div class="recommend_name">
-				<div class="recommend_container">  
-					<img class="avatar_recommend" src="images/prototyping.png" alt="video">
-					<div>
-						<span class="name">UX Foundations: Prototyping</span>
-						<span class="description_recommend"><br>27,959 viewers</br></span>
-					</div>
-				</div>
-				<div class="recommend_container">  
-					<img class="avatar_recommend" src="images/designing.png" alt="video">
-					<div>
-						<span class="name">Designing with Adobe XD and pro</span>
-						<span class="description_recommend"><br>9,122 viewers</br></span>
-					</div>
-				</div>
-				<div class="recommend_container">  
-					<img class="avatar_recommend" src="images/styles.png" alt="video">
-					<div>
-						<span class="name">UX Foundations: Styles and GUIs</span>
-						<span class="description_recommend"><br>13,858 viewers</br></span>
-					</div>
-				</div>
-			</div>
-			<div class="recommend_foot">
-				<span>See all recomendations</span>
-			</div>
-	    </div>
-      </div>
+        <div class="main-right_block">
+            <div class="main-dashboard_block">
+                <div class="main__item-design">
+                    <a class="main-text_style header-text_style" href="">YOUR DASHBOARD</a>
+                    <a class="main-text_style header-text_style" href="">GO TO STATS</a>
+                </div>
+                <div class="dashboard__text-block">
+                    <div class="dashboard__number">367</div>
+                    <div class="dashboard__text">views today</div>
+                    <div class="dashboard__number">15</div>
+                    <div class="dashboard__text">posts views</div>
+                    <div class="dashboard__number">9</div>
+                    <div class="dashboard__text">search appearances</div>
+                </div>
+            </div>
+            <div class="main-visitors_block">
+                <div class="main__item-design">
+                    <a class="main-text_style header-text_style" href="">VISITORS</a>
+                    <a class="main-text_style header-text_style" href="">VIEW ALL</a>
+                </div>
+                <div class="visitors-profiles">
+                    <div class="visitor-profile-block">
+                        <img src="images/Darlene Black.png" />
+                        <div class="visitor-profile__text">
+                            <h3 class="visitor-profile__name">Darlene Black</h3>
+                            HR-manager, 10 000 connec...
+                        </div>
+                    </div>
+                    <div class="visitor-profile-block">
+                        <img src="images/Theresa Steward.png" />
+                        <div class="visitor-profile__text">
+                            <h3 class="visitor-profile__name">Theresa Steward</h3>
+                            iOS developer
+                        </div>
+                    </div>
+                    <div class="visitor-profile-block">
+                        <img src="images/Brandon Wilson.png" />
+                        <div class="visitor-profile__text">
+                            <h3 class="visitor-profile__name">Brandon Wilson</h3>
+                            Senior UX designer
+                        </div>
+                    </div>
+                    <div class="visitor-profile-block">
+                        <img src="images/Kyle Fisher.png" />
+                        <div class="visitor-profile__text">
+                            <h3 class="visitor-profile__name">Kyle Fisher</h3>
+                            Product designer at Com...
+                        </div>
+                    </div>
+                    <div class="visitor-profile-block">
+                        <img src="images/Audrey Alexander.png" />
+                        <div class="visitor-profile__text">
+                            <h3 class="visitor-profile__name">Audrey Alexander</h3>
+                            Team lead at Google
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-courses_block">
+                <div class="main-text_style header-text_style" href="">YOU MAY LIKE THESE COURSES</div>
+                <div class="courses__items">
+                    <div class="courses__item">
+                        <div class="course-screen">
+                            <img class="course-screen__image" src="images/prototyping.jpg" />
+                            <img class="course-screen__play" src="images/play.png" />
+                        </div>
+                        <div class="main__item-design">
+                            <h3 class="visitor-profile__name">UX Foundations: Prototyping</h3>
+                            <div class="course__viewers">27,959 viewers</div>
+                        </div>
+                    </div>
+                    <div class="courses__item">
+                        <div class="course-screen">
+                            <img class="course-screen__image" src="images/designing.jpg" />
+                            <img class="course-screen__play" src="images/play.png" />
+                        </div>
+                        <div class="main__item-design">
+                            <h3 class="visitor-profile__name">Designing with Adobe XD and pro</h3>
+                            <div class="course__viewers">9,122 viewers</div>
+                        </div>
+                    </div>
+                    <div class="courses__item">
+                        <div class="course-screen">
+                            <img class="course-screen__image" src="images/styles.jpg" />
+                            <img class="course-screen__play" src="images/play.png" />
+                        </div>
+                        <div class="main__item-design">
+                            <h3 class="visitor-profile__name">UX Foundations: Styles and GUIs</h3>
+                            <div class="course__viewers">13,858 viewers</div>
+                        </div>
+                    </div>
+                </div>
+                <a class="main-text_style header-text_style" href="">SEE ALL RECOMENDATIONS</a>
+            </div>
+        </div>
     </main>
-    <footer>
-
+    <footer class="footer">
+        <div>
+            <a class="menu__link" href="">
+                <img src="images/Logo.png" alt="logo icon">
+                <div>
+                    <img class="footer_logo" src="images/LinkedIn_footer.png">
+                </div>
+            </a>
+        </div>
+        <div class="column">
+            <div class="footer_column_header main-text_style">Navigation</div>
+            <a class="footer_href_text menu__link" href="">About</a>
+            <a class="footer_href_text menu__link" href="">Careers</a>
+            <a class="footer_href_text menu__link" href="">Advertising</a>
+            <a class="footer_href_text menu__link" href="">Small Business</a>
+        </div>
+        <div class="column">
+            <div class="footer_column_header main-text_style invisible_footer_column_header">.</div>
+            <a class="footer_href_text menu__link" href="">Talent Solutions</a>
+            <a class="footer_href_text menu__link" href="">Marketing Solutions</a>
+            <a class="footer_href_text menu__link" href="">Sales Solutions</a>
+            <a class="footer_href_text menu__link" href="">Safety Center</a>
+        </div>
+        <div class="column">
+            <div class="footer_column_header main-text_style invisible_footer_column_header">.</div>
+            <a class="footer_href_text menu__link" href="">Community Guidelines</a>
+            <a class="footer_href_text menu__link" href="">Privacy & Terms</a>
+            <a class="footer_href_text menu__link" href="">Mobile App</a>
+        </div>
+        <div class="column">
+            <div class="footer_column_header main-text_style">Fast access</div>
+            <button class="footer_button">
+            <span>QUESTIONS?</span>
+            <i class="icon icon-help-circle footer_icon" aria-hidden="true"></i>
+          </button>
+            <button class="footer_button">
+            <span>SETTINGS</span>
+            <i class="icon icon-settings footer_icon" aria-hidden="true"></i>
+          </button>
+        </div>
+        <div class="column">
+            <div class="footer_column_header main-text_style">Language</div>
+            <select class="footer__language_select main-text_style">
+            <option>ENGLISH</option>
+            <option>RUSSIAN</option>
+            <option>MEOW</option>
+          </select>
+        </div>
     </footer>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
-
-
-
